@@ -13,6 +13,6 @@
     ],
     "require": {},
     "scripts": {
-      "test": "vendor/bin/phpunit -c ./unit/phpunit.xml --coverage-html ./unit/report/ --bootstrap unit/bootstrap.php unit/"
+      "test": "vendor/bin/phpunit -c ./unit/phpunit.xml --coverage-clover build/logs/clover.xml --bootstrap unit/bootstrap.php unit/"
     }
 }
