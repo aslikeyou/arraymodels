@@ -1,0 +1,17 @@
+{
+    "name": "aslikeyou/validator",
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "fzaninotto/faker": "~1.4"
+    },
+    "authors": [
+        {
+            "name": "aslikeyou",
+            "email": "pekhota.alex@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+      "test": "vendor/bin/phpunit -c ./unit/phpunit.xml --coverage-html ./unit/report/ --bootstrap unit/bootstrap.php unit/"
+    }
+}

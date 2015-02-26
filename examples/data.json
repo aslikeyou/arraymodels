@@ -1,0 +1,42 @@
+{
+  "callbackUrl": "https://dev3.pdffiller.com/en/test/callback/",
+  "type": "SENDTOMANY",
+  "pin_type": "",
+  "pin": "",
+  "name": "Test",
+  "is_order": true,
+  "users": [
+    {
+      "email": "websviewer+p1@gmail.com",
+      "name": "",
+      "chain": 0,
+      "subject": "subject0",
+      "message": "message0",
+      "is_use_picture": true,
+      "attachments": [
+        {
+          "text": "text00"
+        },
+        {
+          "text": "text01"
+        }
+      ]
+    },
+    {
+      "email": "@gmail.com",
+      "name": "test1",
+      "chain": 2,
+      "subject": "subject1",
+      "message": "message1",
+      "is_use_picture": true,
+      "attachments": [
+        {
+          "text": "text10"
+        },
+        {
+          "text": "text11"
+        }
+      ]
+    }
+  ]
+}
