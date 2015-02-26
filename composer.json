@@ -1,8 +1,6 @@
 {
     "name": "aslikeyou/validator",
     "require-dev": {
-        "phpunit/phpunit": "~4.5",
-        "fzaninotto/faker": "~1.4",
         "satooshi/php-coveralls": "dev-master"
     },
     "authors": [
@@ -13,6 +11,6 @@
     ],
     "require": {},
     "scripts": {
-      "test": "vendor/bin/phpunit -c ./unit/phpunit.xml --coverage-clover build/logs/clover.xml --bootstrap unit/bootstrap.php unit/"
+      "test": "vendor/bin/phpunit -c ./unit/phpunit.xml --bootstrap unit/bootstrap.php unit/"
     }
 }
