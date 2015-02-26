@@ -1,5 +1,7 @@
 # arraymodels
 
+[![Coverage Status](https://coveralls.io/repos/aslikeyou/arraymodels/badge.svg)](https://coveralls.io/r/aslikeyou/arraymodels)
+
 run `composer install` after cloning
 
 run `composer test` for running phpunit
